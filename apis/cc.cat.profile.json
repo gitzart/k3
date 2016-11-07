@@ -1,0 +1,100 @@
+{
+  "cats": [
+    {
+      "id": 2,
+      "2": {
+        "name": "Browny",
+        "age": 5,
+        "gender": 1,
+        "love": "To sleep on people's feet",
+        "score": 0,
+        "img1": "/images/1x/browny_1x.jpg",
+        "img2": "/images/2x/browny_2x.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "4": {
+        "name": "Doyor",
+        "age": 2,
+        "gender": 1,
+        "love": "To drink tea and coffee",
+        "score": 0,
+        "img1": "/images/1x/doyor_1x.jpg",
+        "img2": "/images/2x/doyor_2x.jpg"
+      }
+    },
+    {
+      "id": 8,
+      "8": {
+        "name": "Jittu",
+        "age": 4,
+        "gender": 0,
+        "love": "She hates Jumbo",
+        "score": 0,
+        "img1": "/images/1x/jittu_1x.jpg",
+        "img2": "/images/2x/jittu_2x.jpg"
+      }
+    },
+    {
+      "id": 7,
+      "7": {
+        "name": "Jumbo",
+        "age": 3,
+        "gender": 1,
+        "love": "He likes Jittu",
+        "score": 0,
+        "img1": "/images/1x/jumbo_1x.jpg",
+        "img2": "/images/2x/jumbo_2x.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "3": {
+        "name": "Kinyor",
+        "age": 2,
+        "gender": 0,
+        "love": "Doyor is her younger brother",
+        "score": 0,
+        "img1": "/images/1x/kinyor_1x.jpg",
+        "img2": "/images/2x/kinyor_2x.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "6": {
+        "name": "Moku",
+        "age": 3,
+        "gender": 0,
+        "love": "To jump with her hands up in the air",
+        "score": 0,
+        "img1": "/images/1x/moku_1x.jpg",
+        "img2": "/images/2x/moku_2x.jpg"
+      }
+    },
+    {
+      "id": 1,
+      "1": {
+        "name": "Song Oo Hlaing",
+        "age": 4,
+        "gender": 1,
+        "love": "To poop in the toilet",
+        "score": 0,
+        "img1": "/images/1x/song-oo-hlaing_1x.jpg",
+        "img2": "/images/2x/song-oo-hlaing_2x.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "5": {
+        "name": "Sui",
+        "age": 3,
+        "gender": 1,
+        "love": "A natural-born fighter. Doyor's afraid of him",
+        "score": 0,
+        "img1": "/images/1x/sui_1x.jpg",
+        "img2": "/images/2x/sui_2x.jpg"
+      }
+    }
+  ]
+}
