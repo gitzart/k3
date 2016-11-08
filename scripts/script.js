@@ -85,10 +85,10 @@ $(function () {
         return $("<div/>", {"class": "mdl-card__supporting-text"});
       }
 
-      var $name = profileActionText().text("Name: " + cat.name);
-      var $age = profileActionText().text("Age: " + cat.age);
-      var $sex = profileActionText().text("Gender: " + gender.toUpperCase());
-      var $love = profileActionText().text("Love: " + cat.love);
+      var $name = profileActionText().html("<strong>Name:</strong> " + cat.name);
+      var $age = profileActionText().html("<strong>Age:</strong> " + cat.age);
+      var $sex = profileActionText().html("<strong>Gender:</strong> " + gender.toUpperCase());
+      var $love = profileActionText().html("<strong>Love:</strong> " + cat.love);
       $profileAction.append($name, $age, $sex, $love);
 
       $profile.append($profileTitle, $profileAction);
