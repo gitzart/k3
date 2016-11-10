@@ -1,7 +1,20 @@
 $(function () {
   var ccAPIUrl = "/apis/cc.cat.profile.json";
+  var lang = $("html").attr("lang");
+
+  // Filter page by languages
+  if (lang == "es") ccAPIUrl = "/es" + ccAPIUrl;
+  else if (lang == "fr") ccAPIUrl = "/fr" + ccAPIUrl;
+
   var $jqxhr = $.getJSON(ccAPIUrl); // Get JSON api
   var $cards = $(".cc-scroller > .mdl-card");
+
+  // Prepare cat gender
+  function gender (g) {
+    if (lang == "es") return g ? "Niño" : "Niña";
+    else if (lang == "fr") return g ? "Garçon" : "Fille";
+    else return g ? "Boy": "Girl";
+  }
 
   // Add cards to the card scroller
   $jqxhr.done(function (data) {
@@ -19,14 +32,11 @@ $(function () {
       // Card title
       var $title = $("<div/>", {"class": "mdl-card__title"});
 
-      // Prepare cat gender
-      var gender = cat.gender ? "boy" : "girl";
-
       // Card image
       var $cardImg = $("<img/>", {
         "class": "cc-card-img responsive-img",
         "src": cat.img1,
-        "alt": cat.name + " the cat " + gender
+        "alt": cat.name + " the cat " + gender(cat.gender)
       }).appendTo($title);
 
       // Card action
@@ -53,15 +63,12 @@ $(function () {
       var catID = data.cats[index].id;
       var cat = data.cats[index][catID];
 
-      // Prepare cat gender
-      var gender = cat.gender ? "boy" : "girl";
-
       // Create image container and append image
       var $imgContainer = $("<div/>", {"class": "cc-img-container mdl-shadow--2dp"});
       var $catImg = $("<img/>", {
         "class": "cc-body-img responsive-img",
         "src": cat.img1,
-        "alt": cat.name + " the cat " + gender
+        "alt": cat.name + " the cat " + gender(cat.gender)
       }).appendTo($imgContainer);
 
       // Add data cat-score to the image container
@@ -87,7 +94,7 @@ $(function () {
 
       var $name = profileActionText().html("<strong>Name:</strong> " + cat.name);
       var $age = profileActionText().html("<strong>Age:</strong> " + cat.age);
-      var $sex = profileActionText().html("<strong>Gender:</strong> " + gender.toUpperCase());
+      var $sex = profileActionText().html("<strong>Gender:</strong> " + gender(cat.gender));
       var $love = profileActionText().html("<strong>Love:</strong> " + cat.love);
       $profileAction.append($name, $age, $sex, $love);
 
@@ -120,5 +127,4 @@ $(function () {
       }
     })
   });
-
 });

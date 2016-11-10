@@ -10,7 +10,7 @@
         "name": "Browny",
         "age": 5,
         "gender": 1,
-        "love": "To sleep on people's feet",
+        "love": "Pour dormir sur les pieds des gens",
         "score": 0,
         "img1": "/images/1x/browny_1x.jpg",
         "img2": "/images/2x/browny_2x.jpg"
@@ -22,7 +22,7 @@
         "name": "Doyor",
         "age": 2,
         "gender": 1,
-        "love": "To drink tea and coffee",
+        "love": "Pour boire du thé et du café",
         "score": 0,
         "img1": "/images/1x/doyor_1x.jpg",
         "img2": "/images/2x/doyor_2x.jpg"
@@ -34,7 +34,7 @@
         "name": "Jittu",
         "age": 4,
         "gender": 0,
-        "love": "She hates Jumbo",
+        "love": "Elle déteste Jumbo",
         "score": 0,
         "img1": "/images/1x/jittu_1x.jpg",
         "img2": "/images/2x/jittu_2x.jpg"
@@ -46,7 +46,7 @@
         "name": "Jumbo",
         "age": 3,
         "gender": 1,
-        "love": "He likes Jittu",
+        "love": "Il aime Jittu",
         "score": 0,
         "img1": "/images/1x/jumbo_1x.jpg",
         "img2": "/images/2x/jumbo_2x.jpg"
@@ -58,7 +58,7 @@
         "name": "Kinyor",
         "age": 2,
         "gender": 0,
-        "love": "Doyor is her younger brother",
+        "love": "Doyor est son petit frère",
         "score": 0,
         "img1": "/images/1x/kinyor_1x.jpg",
         "img2": "/images/2x/kinyor_2x.jpg"
@@ -70,7 +70,7 @@
         "name": "Moku",
         "age": 3,
         "gender": 0,
-        "love": "To jump with her hands up in the air",
+        "love": "Pour sauter avec ses mains en l'air",
         "score": 0,
         "img1": "/images/1x/moku_1x.jpg",
         "img2": "/images/2x/moku_2x.jpg"
@@ -82,7 +82,7 @@
         "name": "Song Oo Hlaing",
         "age": 4,
         "gender": 1,
-        "love": "To poop in the toilet",
+        "love": "Pour caca dans des toilettes",
         "score": 0,
         "img1": "/images/1x/song-oo-hlaing_1x.jpg",
         "img2": "/images/2x/song-oo-hlaing_2x.jpg"
@@ -94,7 +94,7 @@
         "name": "Sui",
         "age": 3,
         "gender": 1,
-        "love": "A natural-born fighter. Doyor's afraid of him",
+        "love": "Un combattant né naturel. Doyor a peur de lui",
         "score": 0,
         "img1": "/images/1x/sui_1x.jpg",
         "img2": "/images/2x/sui_2x.jpg"

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en_US" prefix="og: http://ogp.me/ns#">
+<html lang="fr" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Clicker</title>
 
     <noscript>
-      <meta http-equiv="refresh" content="0; url=/nojs.html">
+      <meta http-equiv="refresh" content="0; url=/fr/nojs.html">
     </noscript>
 
     <!-- OGP meta tags -->
@@ -17,9 +17,9 @@
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="576" />
-    <meta property="og:description" content="Don't you want to pat these cute purrfect cats?">
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:description" content="Aimeriez-vous pat ces mignons chats purrfait?">
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:locale:alternate" content="en_US" />
     <meta property="og:locale:alternate" content="es_ES" />
 
     <!-- Jquery -->
@@ -65,8 +65,8 @@
         <i class="material-icons">notifications</i>
 
         <div class="cc-noti-text">
-          <strong>What is Cat Clicker?</strong>
-          <p>It's a game where you score cats by clicking them.</p>
+          <strong>Qu'est-ce que Cat Clicker?</strong>
+          <p>C'est un jeu où vous marquez les chats en cliquant sur eux.</p>
         </div>
       </div>
     </div>
@@ -75,12 +75,12 @@
     <footer class="cc-footer">
       <div class="cc-footer-text">
         © 2016. Cat Clicker.
-        <i class="material-icons">code</i> in YGN.
+        <i class="material-icons">code</i> dans YGN.
       </div>
 
       <nav class="cc-langs">
+        <a class="cc-lang" href="/" lang="en" hreflang="en">English</a>
         <a class="cc-lang" href="/es" lang="es" hreflang="es">Español</a>
-        <a class="cc-lang" href="/fr" lang="fr" hreflang="fr">Français</a>
       </nav>
     </footer>
 
