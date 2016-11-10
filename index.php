@@ -23,13 +23,14 @@
     <meta property="og:locale:alternate" content="es_ES" />
 
     <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- <script src="/scripts/jquery-3.1.1.min.js"></script> -->
 
     <!-- Reset.css -->
     <link rel="stylesheet" href="/css/reset.css">
 
     <!-- Material design -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-amber.min.css" />
     <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
     <!-- <link rel="stylesheet" href="/css/material.min.css">
@@ -84,6 +85,6 @@
       </nav>
     </footer>
 
-    <script src="/scripts/script.js"></script>
+    <script defer src="/scripts/script.js"></script>
   </body>
 </html>
