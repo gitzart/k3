@@ -12,7 +12,7 @@
     <!-- OGP meta tags -->
     <meta property="og:title" content="Cat Clicker" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://catclickr.herokuapp.com/" />
+    <meta property="og:url" content="https://catclickr.herokuapp.com/fr" />
     <meta property="og:image" content="https://catclickr.herokuapp.com/images/url-preview-img.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1024" />
